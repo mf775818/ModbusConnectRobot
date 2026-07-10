@@ -1,27 +1,60 @@
 ```
 # Build artifacts
-bin/
-obj/
-*.dll
+*.obj
 *.exe
+*.dll
 *.pdb
-*.userprefs
-*.cache
-*.log
+*.user
+*.aps
+*.ilk
+*.iobj
+*.ipdb
+*.tlog
+*.exp
+*.lib
+*.so
+*.dylib
 
 # Dependencies
 packages/
-node_modules/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
 
-# IDE files
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
 .vs/
 .vscode/
-*.user
+*.userprefs
 *.suo
-*.userosscache
+*.user
+*.cache
+*.ncb
+*.idb
+*.pidb
+*.asm
 *.sln.docstates
 
 # OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+desktop.ini
+
+# Testing
+TestResults/
 ```
